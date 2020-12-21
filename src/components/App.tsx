@@ -1,15 +1,15 @@
 import * as React from 'react'
 
-import Hello from './Hello'
-import HelloWithHooks from './HelloWithHooks'
+interface IProps {}
 
-const App = () => {
-  return (
-    <div>
-      <Hello compiler={'TS'} framework={'React'} />
-      <HelloWithHooks />
+interface IState {}
+
+class App extends React.Component<IProps, IState> {
+  render() {
+    return <div>
+      enter phone number
     </div>
-  )
+  }
 }
 
 export default App
